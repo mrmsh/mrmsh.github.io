@@ -1,0 +1,18 @@
+@media (max-width: 700px) {
+  header {
+    min-height: 550px; }
+    header .article {
+      margin-top: 120px; }
+  .services {
+    padding: 70px 0; }
+  .expertise .customize-col {
+    padding: 70px 15px 60px; }
+  .expertise button {
+    margin-left: 20px; }
+  .portfolio {
+    padding: 70px 0; }
+  .team-info {
+    padding: 70px 0; }
+    .team-info .profile {
+      margin-top: 30px;
+      margin-bottom: 30px; } }
