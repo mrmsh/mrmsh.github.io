@@ -1,0 +1,258 @@
+body {
+	font-family: Calibri, sans-serif;
+}
+.container {
+	height: auto;
+	background: #0075bf;
+	display: flex;
+	justify-content: space-between;
+}
+.info {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.info div {
+	display: flex;
+	align-items: center;
+	border-right: 1px solid white;
+	height: 55px;
+	padding: 0px 40px;
+	color: #fff;
+}
+.info div:last-child {
+	border: none;
+}
+.language {
+	display: flex;
+	align-items: center;
+}
+.language a {
+	display: block;
+	padding: 11px 6px;
+	margin:5px;
+	border: 1px solid #96c6e5;
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.language a:hover {
+	background: #ffde00;
+	border: 1px solid #ffde00;
+	color: #000;
+}
+.fa {
+	font-size: 25px;
+	padding-right: 15px;
+}
+.logo {
+	height: 120px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 48px;
+	color: #0075bf;
+	text-transform: uppercase;
+	background: #f1f1f1;
+}
+.menu {
+	height: auto;
+	background: #f8f8f8; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.menu div {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	border-right: 1px solid #e5e5e5;
+}
+.menu div:first-child {
+	border-left: 1px solid #e5e5e5;
+}
+.menu div a {
+	display: block;
+	padding: 0px 25px;
+	text-decoration: none;
+	color: #1b497e;
+}
+.menu div a:hover {
+	display: block;
+	padding: 12px 25px;
+	border-bottom: 5px solid #ffde00;
+}
+.products {
+	height: 410px;
+	background: #f5f5f5;
+	margin: 0 auto;
+	width: 99%;
+}
+.products p{
+	display: block;
+	color: #ffcc00;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 35px 0;
+	text-align: center;
+}
+.box {
+	height:250px;
+	margin:0 auto;
+	padding: 15px 0 0 0;
+	border:1px solid #e6e6e6;
+	overflow: visible;
+	position: relative;
+}
+.zoom1, .zoom2 {
+	display: none;
+}
+.bxslider2 > li:hover .zoom1, 
+.bxslider2 > li:hover .zoom2{
+	display: block;
+	background-color: rgba(100,202,227, 0.5);
+	color: white;
+	font-size: 60px;
+	position: relative;
+	top:-238px;
+	width: 280px;
+	height: 267px;
+	left:0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.bxslider2 > li:active .zoom1, 
+.bxslider2 > li:active .zoom2{
+	display: block;
+	z-index: 1;
+	position: absolute;
+	height: 410px; 
+	border: 1px solid #000;
+	background-repeat: no-repeat;
+	background-size: contain;
+	color:transparent;
+	width: 420px;  
+	top:10px;
+	left: 10px;
+	border-radius: 10px;
+}
+.bxslider2 > li:active .zoom1 {
+	background-image: url(../img/IMGP3988.png);
+}
+.bxslider2 > li:active .zoom2 {
+	background-image: url(../img/IMGP4040.png);
+}
+/*.bx-viewport{
+overflow: visible!important;
+}*/
+.name-partners {
+	text-align: center;
+	padding: 30px 0px;
+	color: #fed22a;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.partners {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 45px;
+}
+.partners div {
+	height: 210px;
+	width: 253px;
+	text-align: center;
+	border: 1px solid #e8e8e8;
+	padding-left: 0;
+	border-collapse: collapse;
+	background-repeat: no-repeat;
+	background-position: center 30px;
+}
+.par-1 {
+	background-image: url('../img/1.png');
+}
+.par-1:hover {
+	background-image: url('../img/1c.png');
+}
+.par-2 {
+	background-image: url('../img/2.png');
+}
+.par-2:hover {
+	background-image: url('../img/2c.png');
+}
+.par-3 {
+	background-image: url('../img/3.png');
+}
+.par-3:hover {
+	background-image: url('../img/3c.png');
+}
+.par-4 {
+	background-image: url('../img/4.png');
+}
+.par-4:hover {
+	background-image: url('../img/4c.png');
+}
+.par-5 {
+	background-image: url('../img/5.png');
+}
+.par-5:hover {
+	background-image: url('../img/5c.png');
+}
+.par-6 {
+	background-image: url('../img/6.png');
+}
+.par-6:hover {
+	background-image: url('../img/6c.png');
+}
+.partners div a {
+	display: block;
+	color: #2f5075;
+	text-decoration: none;
+	margin-top: 155px;
+	font-size: 16px;
+}
+footer {
+	height: 75px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-image: url(../img/footer.png);
+	background-size: contain;
+	background-position: center;
+	padding: 0 30px;
+}
+
+footer .fa{
+	font-size: 28px;
+	margin-right: 10px;
+}
+footer > div{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+footer a {
+	color: #000;
+}
+footer a:hover, footer div:hover{
+	color:#fff;
+	text-decoration: none;
+}
