@@ -1,0 +1,10 @@
+@media (max-width: 680px) {
+	.center {
+		width: 100%;
+		margin: 0 10px;
+	}
+	.btn {
+		width: 100%;
+		margin: 0;
+	}
+}
