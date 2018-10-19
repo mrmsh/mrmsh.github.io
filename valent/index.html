@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Добро пожаловать!</title>
+</head>
+<body>
+  <div  class="text-center bg">
+    <h1><span id='name'></span>, тебя приветствует команда HappyMaker:)</h1>
+    <p>Настала новая эра поздравительных открыток, так как бумажные открытки уже в прошлом</p>
+    <p>Наша команда придумала интерактивыне открытки, которые всегда будут в смартфоне любимого человека <i class="fa fa-heart" aria-hidden="true"></i></p>
+    <div class="center">
+      <p>Почему <span class="io" title="Интерактивыне октрытки">ИО:</span></p>
+      <ul>
+        <li><i class="fa fa-check" aria-hidden="true"></i> креативно;</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> современно;</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> незабываемо;</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> всегда под рукой;</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> созаднно с любовью;</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> незабываемые эмоции;</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> и самое главное воспоминания, которые ты подаришь <i class="fa fa-smile-o" aria-hidden="true"></i></li> 
+      </ul>
+    </div>
+    <p style="color: #fff; font-size: 25px;">Хватит слов, дай знакомиться!</p>
+    <p><i class="fa fa-arrow-circle-down" aria-hidden="true"></i><i class="fa fa-arrow-circle-down" aria-hidden="true"></i><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></p>
+    <button onclick='random()' class="btn btn-2 btn-2g">Нажимай меня полностью</button>
+    <p id="phrase"></p>
+  </div>
+  <footer>
+    <h2>Возникли вопросы, тогда тебе сюда:</h2>
+    <p><img src="tele.png" alt="tele"> +380-66-065-77-07</p>
+    <p><img src="viber.png" alt="viber" class="viber"> +380-99-48-49-248</p>
+  </footer>
+  <script>
+    // var name = prompt('Как вас зовут?');
+    document.getElementById("name").innerHTML = name;
+    function random() {
+      var askNumber = prompt("Укажите ваше настроение от 1 до 5.");
+      var arr1 = [
+      "Чудеса там, где в них верят, и чем больше верят, тем чаще они случаются.",
+      "Время, потерянное с удовольствием, не считается потерянным.",
+      "В моем словаре нет слова «невозможно».",
+      "Чтобы дойти до цели, надо идти.",
+      "Enjoy the inexorable pain.",
+      "Жизнь несправедлива, но все же хороша.",
+      "Неважно, плоха ли ситуация или хороша — она изменится.",
+      "When you think its too late, the truth is, its still early.",
+      "Представьте, что все черные полосы в вашей жизни сделаны из вкуснейшего шоколада!",
+      "Улыбайтесь всем назло, чтоб вам всегда во всем везло!",
+      "Люблю людей. Они все такие непохожие друг на друга!",
+      "Любовь – огромное желание жить.",
+      "In order to succeed, we must first believe that we can."
+      ];
+      var arr2 = [
+      "Счастлив тот, кто способен распространять счастье!",
+      "Когда ваши дела идут плохо — не ходите с ними.",
+      "Если тебе роют яму, не мешай. Закончат-сделаешь бассейн.",
+      "Если путь ведет к цели, то безразлично, какова его длина.",
+      "Поверь в тот факт, что есть ради чего жить, и твоя вера поможет этому факту свершиться.",
+      "Not everyone can truly succeed in everything. But success only comes with self-management and determination.",
+      "The saliva that flow now will become the tears of tomorrow.",
+      "Самой большой ошибкой, которую вы можете совершить в жизни, является постоянная боязнь ошибаться.",
+      "Если кто-то на вас ругается, злится или обижается — задавите его своим позитивом.",
+      "Это невозможно» - сказала Причина, «Это безрассудно» — заметил Опыт, «Это бесполезно»- твердила Гордость, «попробуй…» - шепнула Мечта."
+      ];
+      var arr3 = [
+      "People who invest in the future are realists.",
+      "Этот мир — как эхо в горах: если мы бросаем гнев, возвращается гнев; если мы отдаем любовь, возвращается любовь.",
+      "Большинство людей счастливы настолько, насколько они решили быть счастливыми.",
+      "Пройдет еще немножко времени и жизнь покажет, что все происходило к лучшему.",
+      "Чтобы радоваться жизни, нужно делать всего несколько вещей: жить и радоваться!",
+      "Everyone underwent something that changed him",
+      "Секрет успеха заключается не в том, чтобы не делать ошибок, а в том, чтобы не повторять тех же самых ошибок дважды.",
+      "Fall seven times and stand up eight",
+      "Действовать пора сейчас. Никогда не поздно сделать что-то."
+      ];
+      var arr4 = [
+      "Ты не можешь менять направление ветра, но всегда можешь поднять паруса, чтобы достичь своей цели.",
+      "Пока мы крутим педали и рулим к цели, важно не забывать о прекрасном, открывающемся перед нами каждый день.",
+      "Жизнь прекрасна, когда творишь ее сам.",
+      "Жизнь – невероятная радость, которую стоит просто прочувствовать!",
+      "Не забывайте: настроение бывает разнообразным! Пускай хорошее сменяется прекрасным.",
+      "Fortune favors the brave.",
+      "Успех — это один процент вдохновения и девяносто девять процентов усилий.",
+      "Инвестиции в знания всегда дают наибольшую прибыль.",
+      "There are no shortcuts to any place worth going",
+      "Build your own dreams, or someone else will hire you to build theirs",
+      "Many of life is failures are people who did not realize how close they were to success when they gave up."
+      ];
+      var arr5 = [
+      "Жизнь – то, что случается с людьми, пока они продолжают строить планы на будущее.",
+      "Любые жизненные перемены – очередной шаг к открытию новых возможностей.",
+      "Светлое будущее принадлежит людям, которые остаются верными своей заветной мечте.",
+      "Даже после малюсенькой улыбочки в организме умирает один микроб.",
+      "Вы серьезно заболели отличным настроением. На больничный идти не надо, чтобы этой болезнью заразились все люди)",
+      "Улыбайтесь! Каждая морщинка появляется не от улыбки, а вместо нее!",
+      "Оптимистичные люди дольше живут и быстрее выздоравливают.",
+      "Здоровье – результат любви к самому себе.",
+      "Здоровые люди – самые бесценные украшения планеты, созданные природой.",
+      "Оптимизм укрепляет человеческое здоровье.",
+      "Motivation is what gets you started. Habit is what keeps you going.",
+      "Change your life today. Don’t gamble on the future, act now, without delay.",
+      "To have another language is to possess a second soul",
+      "Opportunities don’t happen, you create them.",
+      "Life is 10% what happens to you and 90% how you react to it."
+      ];
+      var result;
+      if (askNumber > 5 || askNumber < 1) {
+        var result = "введите число";
+      } else {
+        if (askNumber == 5) {
+          var result = arr5[Math.floor(Math.random() * arr5.length)];
+        } else if (askNumber == 4) {
+          var result = arr4[Math.floor(Math.random() * arr4.length)];
+        } else if (askNumber == 3) {
+          var result = arr3[Math.floor(Math.random() * arr3.length)];
+        } else if (askNumber == 2) {
+          var result = arr2[Math.floor(Math.random() * arr2.length)];
+        } else {
+          var result = arr1[Math.floor(Math.random() * arr1.length)];
+        }
+      }
+      return (document.getElementById("phrase").innerHTML = result);
+    };
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
