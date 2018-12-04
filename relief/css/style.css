@@ -226,6 +226,10 @@ h1, h2, h3, h4, h5, h6 {
 .about .social a {
 	font-size: 2em;
 	text-decoration: none;
+	color: #0087B4;
+}
+.about .social a:hover {
+	color: #FF4C00;
 }
 .info ul {
 	list-style: none;
@@ -587,7 +591,7 @@ footer .feedback:hover {
 	}
 	.footer-carousel {
 		overflow: visible;
-		min-height: 900px;
+		min-height: 1000px;
 	}
 	.carousel-caption.caption-lg h5 {
 		font-size: 1.4em!important;
