@@ -37,5 +37,6 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline="January 14 2019 00:00:00 GMT+0300"; //for Ukraine
+var deadline="January 25 2019 00:00:00 GMT+0300"; //for Ukraine
+// var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000); // for endless timer
 initializeClock('clockdiv', deadline);
