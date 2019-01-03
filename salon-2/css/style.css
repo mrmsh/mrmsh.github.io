@@ -124,14 +124,14 @@ ul.social-btn a.instagram:hover {
 
 .banner-top .slider-top div.b1 {
     min-height: 725px;
-    background: url(../img/f3.jpg) no-repeat center center;
+    background: url(../img/f1.jpg) no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover
 }
 
 .banner-top .slider-top div.b2 {
     min-height: 725px;
-    background: url(../img/f3.jpg) no-repeat center center;
+    background: url(../img/f2.jpg) no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover
 }
@@ -267,16 +267,16 @@ ul.social-btn a.instagram:hover {
 
 .info-about .ab1 {
     margin-top: 30px;
-    background: url(../img/banner1.jpg) no-repeat 0 0
+    background: url(../img/f1.jpg) no-repeat 0 0
 }
 
 .info-about .ab2 {
     margin: 2rem auto;
-    background: url(../img/banner2.jpg) no-repeat 0 0
+    background: url(../img/f2.jpg) no-repeat 0 0
 }
 
 .info-about .ab3 {
-    background: url(../img/banner3.jpg) no-repeat 0 0
+    background: url(../img/f3.jpg) no-repeat 0 0
 }
 
 .services {
