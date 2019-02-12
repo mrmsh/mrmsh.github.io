@@ -13830,7 +13830,7 @@ ul.social-btn a.instagram:hover
 
 .pricing
 {
-    padding: 2rem 0 4rem;
+    padding: 2rem 0;
 }
 .pricing h5
 {
@@ -13916,7 +13916,7 @@ ul.social-btn a.instagram:hover
 
 .gallery
 {
-    padding: 3rem 0;
+    padding: 1rem 0;
 }
 .gallery h5
 {
@@ -14276,6 +14276,22 @@ footer ul li a:hover
         bottom: 0; 
         left: 0;
     }
+    .contacts
+    {
+        padding: .5em 0;
+
+        text-align: center;
+    }
+    .contacts .adress p
+    {
+        margin: 0;
+    }
+    .gallery img
+    {
+        height: auto;
+
+        border: 1px solid #c0c0c0;
+    }
 }
 
 @media (max-width: 768px)
@@ -14309,6 +14325,10 @@ footer ul li a:hover
 
 @media (max-width: 600px)
 {
+    .contacts
+    {
+        text-align: center;
+    }
     .item
     {
         width: 300px;
