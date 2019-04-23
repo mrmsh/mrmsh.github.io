@@ -1,0 +1,60 @@
+* {
+	font-family: 'Exo 2', sans-serif;
+	color: #595b5c;
+}
+
+.description .registr-btn {
+	display: inline-block!important;
+}
+.speaker h2 {
+	margin-bottom: 30px;
+}
+.clear {
+	clear: both;
+}
+.block {
+	/*display: block;*/
+}
+.opportunities {
+	/*text-align: center;*/
+}
+.opportunities .registr-btn {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+.navbar a {
+	color: #595b5c;
+}
+.discription .timeline-wrapper {
+	margin: 0;
+}
+
+.opportunities h2 {
+	font-size: 45px;
+}
+.callback {
+	color: #846cb0!important;
+	border-bottom: 1px dashed #846cb0;
+	padding-bottom: 0;
+}
+.callback .fa {
+	color: #846cb0;
+}
+#more {display: none;}
+footer {
+	background: #eff1f1;
+}
+footer a {
+	color: #595b5c;
+}
+iframe {
+	width: 100%;
+	height: 350px;
+	border: none;
+}
+#myBtn {
+	background: #846cb0;
+	color: #fff;
+	border: none;
+}
